@@ -83,7 +83,7 @@ export default function Navbar({ activeView, setActiveView, onNavigateToSection 
       items={menuItems}
       socialItems={socialItems}
       displaySocials
-      displayItemNumbering={true}
+      displayItemNumbering={false}
       menuButtonColor="#ffffff"
       openMenuButtonColor="#000000"
       changeMenuColorOnOpen={true}
