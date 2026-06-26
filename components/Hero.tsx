@@ -113,7 +113,7 @@ export default function Hero({ onStartChatbot }: HeroProps) {
 
         {/* Heading 1 (Word Reveal Animation) */}
         <motion.h1
-          className="flex flex-col text-5xl font-extralight tracking-tight sm:text-7xl md:text-8xl lg:text-9xl font-sans"
+          className="flex flex-col text-4xl font-extralight tracking-tight sm:text-6xl md:text-7xl lg:text-8xl font-sans"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
@@ -126,7 +126,7 @@ export default function Hero({ onStartChatbot }: HeroProps) {
               {title1}
             </motion.span>
           </div>
-          <div className="overflow-hidden h-fit py-2 -mt-2 md:-mt-6">
+          <div className="overflow-hidden h-fit py-2 -mt-2 md:-mt-4">
             <motion.span
               className="inline-block text-white italic font-serif leading-none tracking-normal font-light"
               variants={letterVariants}

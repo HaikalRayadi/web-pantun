@@ -142,7 +142,7 @@ export default function Team() {
             OUR TEAM
           </motion.span>
           <motion.h2 
-            className="text-3xl font-extralight tracking-tight sm:text-5xl font-sans"
+            className="text-2xl font-extralight tracking-tight sm:text-4xl font-sans"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

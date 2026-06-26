@@ -6,6 +6,28 @@
   --font-mono: var(--font-sans), "JetBrains Mono", ui-monospace, monospace;
 }
 
+html {
+  font-size: 14.5px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 13.5px;
+  }
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 13px;
+  }
+}
+
 body {
   overflow-x: hidden;
 }

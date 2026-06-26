@@ -94,7 +94,7 @@ export default function About() {
             <div className="h-px w-8 bg-zinc-700" />
           </div>
 
-          <h2 className="text-3xl font-extralight tracking-tight sm:text-4xl md:text-5xl font-sans leading-tight">
+          <h2 className="text-2xl font-extralight tracking-tight sm:text-3xl md:text-4xl font-sans leading-tight">
             Melestarikan{" "}
             <span className="font-serif italic font-light text-zinc-300">
               Warisan Melayu
